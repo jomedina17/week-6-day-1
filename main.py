@@ -9,6 +9,7 @@
 
 
 # review practice
+
 # Append the value of current to the end of the list seconds Please use the list.append() method to do that.
 
 
@@ -17,11 +18,14 @@ current = 1.11
 
 # Remove item 1.45 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
-
+seconds.remove(1.45)
 
 # Remove items 1.45, 1.02, and 1.11 from seconds.
 seconds = [1.23, 1.45, 1.02, 1.11]
-
+seconds.remove(1.45)
+seconds.remove(1.02)
+newSeconds = seconds[1:]
+print(newSeconds)
 
 ################################comparison operators#########################
 #remember....
@@ -32,11 +36,29 @@ seconds = [1.23, 1.45, 1.02, 1.11]
 # == equal
 # != different or not equal to
 
+#learning comparison operators
+my_bool = 10 == 20 #true or false
+print(my_bool)
+
+my_bool = 5 + 5 == 10 -0
+print(my_bool) #true
+
+my_bool = 'white' == 'White'.lower()
+print(my_bool) #true
+
+my_bool = 4 < 5 and 5 > 6 
+print(my_bool)
+
+
 # Comparison Operators Practice 1:
 # ask the user for their age
 # if the user's  is between 18 - 21 , print they can vote, other wise print better luck next time.
+age = int(input("what is your age?"))
 
-
+if age >= 18 and age <= 21:
+  print("you can vote")
+else:
+  print("better luck next time")
 
 
 
