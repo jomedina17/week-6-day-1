@@ -65,7 +65,10 @@ else:
 # Comparison Operators Practice  2:
 # Create two variables (num1 and num2) with the following values: 36 and 17. Check if num1 is greater than or equal to num2 and store the result of that comparison in a variable called my_bool
 
-
+num1 = 36
+num2 = 17
+my_bool = num1 >= num2
+print(my_bool)
 
 
 # Comparison Operators Practice  3:
@@ -73,6 +76,13 @@ else:
 # Inside num1, store the result of the square root of 25
 # Inside num2, store the number 5.
 # Check if num1 is equal to num2 and store the result of that comparison in a variable called my_bool.
+import math 
+num1= math.sqrt(25)
+num2= 5
+my_bool = num1 = num2
+print(my_bool)
+
+
 
 
 # Comparison Operators Practice #4:
@@ -91,6 +101,17 @@ else:
 
 
 ##############################logical operators##################################################
+#logical operators lessons 
+my_bool = (55 == 10) and (5 == 2 3 )
+print(my_bool)
+
+my_bool = 1 == 10 or 3 == 3
+print(my_bool)
+
+text= "this sentence is short"
+my_bool= ('sentence' in text) or ('python' not in text)
+print(my_bool)
+
 
 
 # Logical Operators Practice #1
